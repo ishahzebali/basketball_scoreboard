@@ -6,6 +6,11 @@ body {
     background-repeat: no-repeat;
 }
 
+#title {
+    margin-bottom: 325px;
+    position: absolute;
+}
+
 #container {
     display: flex;
     justify-content: space-around;
