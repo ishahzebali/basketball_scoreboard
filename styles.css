@@ -1,0 +1,71 @@
+body {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1496033604106-04799291ee86?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #C4B5FD;
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid #6D28D9;
+    margin: 100px auto;
+    padding: 20px-btn;
+    color: #6D28D9;
+}
+
+#h-score {
+    background-color: #FDA4AF;
+    color: red;
+    padding: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid #6D28D9;
+    font-size: 40px;
+}
+
+#g-score {
+    background-color: #FDA4AF;
+    color: red;
+    padding: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid #6D28D9;
+    font-size: 40px;
+}
+
+#hp1-btn, #hp2-btn, #hp3-btn, #gp1-btn, #gp2-btn, #gp3-btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: transparent;
+    padding: 5px 5px;
+    border: 2px solid #6D28D9;
+    border-radius: 10px;
+}
+
+#hp1-btn:hover, #hp2-btn:hover, #hp3-btn:hover, #gp1-btn:hover, #gp2-btn:hover, #gp3-btn:hover {
+    background-color: #FDA4AF;
+}
+
+#new-game {
+    position: absolute;
+    margin: 275px 0 0 0;
+}
+
+#new-game-btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: transparent;
+    padding: 5px 5px;
+    border: 2px solid #6D28D9;
+    border-radius: 10px;
+}
+
+#new-game-btn:hover {
+    background-color: #FDA4AF;
+}
